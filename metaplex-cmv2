@@ -1,0 +1,28 @@
+This is how I got metaplex installed
+
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+sudo apt install npm
+sudo npm install yarn
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -  //check the version number here -> https://github.com/nodesource/distributions#debinstall
+sudo apt update
+sudo apt upgrade
+sudo apt install nodejs
+git clone https://github.com/metaplex-foundation/metaplex.git
+cd metaplex
+cd js
+yarn install  //and waiting
+yarn bootstrap
+cd ~
+sudo npm install -g typescript
+sudo npm install -g npm
+sudo npm remove -g ts-node
+sudo apt remove ts-node
+sudo apt autoremove
+sudo npm install -g ts-node
+
+
+This is how I got candy machine installed
+
+...
